@@ -3,11 +3,11 @@
 #include <stdio.h>
 int main() {  
     int a;
-    printf("Enter number of capital letters to display: ");
+    printf("vvedite tsifru: ");
     scanf("%d", &a);
    
     for(char i=65; i<=a+65; i++){
-        printf("letter: %c \n", i);
+        printf("bukva: %c \n", i);
     }
     return 0;
 }
